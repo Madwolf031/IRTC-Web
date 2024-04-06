@@ -2,6 +2,17 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+section{
+  margin-inline: 60px;
+}
+hr{
+  width: 95%;
+}
+footer{
+  background-color: #000000;
+  padding: 5%;
 }
 .logo{
     width: 80px;
@@ -12,6 +23,7 @@ body{
     padding: 10px;
     display: flex;
     background-color: transparent;
+    position: fixed;
     align-items: center;        
     text-align: center;
  }
@@ -43,15 +55,25 @@ body{
   .nav ul li:hover:after {
     width: 100%;
   }
+  .section-1 {
+    display: flex;
+    justify-content: flex-end; /* Moves content to the right */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Set the height as needed */
+  }
   .title{
-    justify-content: flex-end;
+    text-align: center;
   }
   .title p{
     margin: 0;
+    font-size: 3vh;
+    text-transform: uppercase;
   }
   .title h1{
     font-size: 20vh;
     margin: 0;
+    text-shadow: 10px 2px 4px rgba(0, 0, 0, 0.5); 
+
   }
   .menu-icon {
     display: inline-block;
@@ -65,5 +87,189 @@ body{
     background-color: black;
     margin: 5px 0;
   }
+  .button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center; /* Center the text horizontally */
+    margin: 20px auto; /* Center the button horizontally */
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #215963;
+    background: #215963;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    }
+    .button:hover {
+    border: 2px solid #fff;
+    background: #fff;
+    color: #000000;
+    }
+.section-2{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.section-2 p{
+  font-size: 25px;
+  text-align: justify;
+}
+
+.section-3 h1{
+  margin-top: 5%;
+  text-align: center;
+}
+.section-3 p{
+  font-size: 20px;
+  text-align: justify;
+}
+.timeline{
+  margin-block: 5%;
+}
+.diamond1 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #EAF4FC ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}
+.diamond2 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #D9EAF3 ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}
+.diamond3 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #C8E0EB ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}
+.diamond4 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #B7D6E3 ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}
+.diamond5 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #A6CCDB ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}.diamond6 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #95C2D3 ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}.diamond7 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #84B8CB ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}.diamond8 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #73AEC3 ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}.diamond9 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #62A4BB ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}.diamond10 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #519AB3 ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}.diamond11 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #4388A4 ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}.diamond12 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #357693 ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}.diamond13 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #276482 ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}.diamond14 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #195271  ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}
+.diamond15 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #195271 ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}
+.diamond16 {
+  width: 100px;/*Adjustsizeasneeded*/
+  height: 100px;/*Adjustsizeasneeded*/
+  background-color: #0A354F ;/*Changecolorasneeded*/
+  transform: rotate(45deg);
+  display: grid;
+  place-items: center;
+}
+.cont{
+  transform: rotate(-45deg);
+}
+
+.section-4{
+  display: flex;
+  align-items: center;
+ height: 100vh;
+}
+.section-4 .card{
+  background: #215963;
+  color: #fff;
+  margin-inline: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  height: 50vh;
+  
+}
+.card h2{
+  background-color: #000000;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+}
   
   
